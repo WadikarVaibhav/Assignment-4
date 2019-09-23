@@ -1,0 +1,46 @@
+main>* {
+  background: silver;
+}
+
+main {
+  display: grid;
+  width: 960px;
+  grid: repeat(10, 1fr) / repeat(12, 1fr);
+  gap: 15px;
+  margin: 20px auto 0 auto;
+}
+
+header {
+  padding-bottom: 50px;
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+nav {
+  display: grid;
+  grid-area: 1 / 8 / 2 / 13;
+  height: 43px;
+  cursor: pointer;  
+  align-self: center;
+  align-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(4, auto);
+}
+
+.f_product_image {
+  grid-area: 2 / 1 / 5 / 13;
+}
+
+.f_product1 {
+  grid-area: 5 / 1 / 7 / span 6;
+}
+
+.f_product2 {
+  grid-area: 5 / 7 / 7 / span 6;
+}
+
+footer {
+  grid-column: 1 / span 12;
+  text-align: center;
+  padding-top: 12px;
+  height: 40px
+}
