@@ -5,7 +5,7 @@ main>* {
 main {
   display: grid;
   width: 960px;
-  grid: repeat(10, 1fr) / repeat(12, 1fr);
+  grid: repeat(8, 1fr) / repeat(12, 1fr);
   gap: 15px;
   margin: 20px auto 0 auto;
 }

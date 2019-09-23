@@ -6,7 +6,7 @@ main {
   display: grid;
   width: 960px;
   margin: 20px auto 0 auto;
-  grid: repeat(12, 1fr) / repeat(12, 1fr);
+  grid: repeat(11, 1fr) / repeat(12, 1fr);
   gap: 15px;
 }
 
